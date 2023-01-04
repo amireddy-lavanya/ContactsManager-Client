@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+tbody tr:nth-child(even){
+    background-color:#B2DFFF4F;
+    
+}
+.pagination{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 10px;
+    font-size: 1.2rem;
+    gap: 5px;
+    
+    
+
+}
+.pagination .page-num{
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 400;
+    text-decoration: none!important;
+    width: 300px;
+    background-color: #fff;
+
+}
+.pagination .page-num:hover{
+    background-color: #5ab1bb;
+    color:#fff;
+
+}
+.pagination .active{
+    background-color: #5ab1bb;
+}
